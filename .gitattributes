@@ -1,0 +1,13 @@
+# Language detection rules
+# Do not edit manually
+*.gif binary
+*.html linguist-vendored
+
+public/index.html linguist-vendored
+src/**/*.ts linguist-detectable
+*.bat text eol=crlf
+
+*.svg text
+*.woff binary
+
+vendor/* linguist-vendored
